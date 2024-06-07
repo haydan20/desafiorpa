@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPAlura.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f7cd874963083aab77c6bd3a343aab497a1db94")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPAlura.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPAlura.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

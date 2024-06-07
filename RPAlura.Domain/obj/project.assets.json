@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\haguiar\\Source\\Repos\\desafiorpa\\RPAlura.Domain\\RPAlura.Domain.csproj",
       "projectName": "RPAlura.Domain",
-      "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj",
+      "projectPath": "C:\\Users\\haguiar\\Source\\Repos\\desafiorpa\\RPAlura.Domain\\RPAlura.Domain.csproj",
       "packagesPath": "C:\\Users\\haguiar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\obj\\",
+      "outputPath": "C:\\Users\\haguiar\\Source\\Repos\\desafiorpa\\RPAlura.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\haguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
