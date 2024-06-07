@@ -15,7 +15,7 @@ namespace RPAlura.Infrastructure.Repositories
             _dbConnection = new SQLiteConnection(connectionString);
         }
 
-        public void CreateDatabaseAndTable()
+        public void CreateDatabase()
         {
             _dbConnection.Open();
 
@@ -23,10 +23,10 @@ namespace RPAlura.Infrastructure.Repositories
             string createTableQuery = @"
             CREATE TABLE IF NOT EXISTS Cursos (
                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                Titulo TEXT NULL,
+                Title TEXT NULL,
                 Professor TEXT NULL,
-                QuantidadeHoras INTEGER NULL,
-                Descricao TEXT NULL
+                Duration INTEGER NULL,
+                Description TEXT NULL
             );";
 
             _dbConnection.Execute(createTableQuery);
@@ -37,16 +37,13 @@ namespace RPAlura.Infrastructure.Repositories
             return _dbConnection.Query<Cursos>("SELECT * FROM Cursos");
         }
 
-        public Cursos GetById(int id)
-        {
-            return _dbConnection.QuerySingleOrDefault<Cursos>("SELECT * FROM Cursos WHERE Id = @Id", new { Id = id });
-        }
+    
 
-        public void Add(Cursos curso)
+        public void Save(Cursos curso)
         {
-            string insertQuery = "INSERT INTO Cursos (Titulo, Professor, QuantidadeHoras, Descricao) " +
+            string insert = "INSERT INTO Cursos (Title, Professor, Duration, Description) " +
                                  "VALUES (@Title, @Professor, @Duration, @Description)";
-            _dbConnection.Execute(insertQuery, curso);
+            _dbConnection.Execute(insert, curso);
         }
     }
 }

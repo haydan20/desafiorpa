@@ -1523,11 +1523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura\\RPAlura.Console.csproj",
+      "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura\\RPAlura.Console.csproj",
       "projectName": "RPAlura.Console",
-      "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura\\RPAlura.Console.csproj",
+      "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura\\RPAlura.Console.csproj",
       "packagesPath": "C:\\Users\\haguiar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura\\obj\\",
+      "outputPath": "C:\\Users\\haguiar\\Source\\Repos\\desafiorpa\\RPAlura\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\haguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1544,11 +1544,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Application\\RPAlura.Application.csproj": {
-              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Application\\RPAlura.Application.csproj"
+            "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Application\\RPAlura.Application.csproj": {
+              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Application\\RPAlura.Application.csproj"
             },
-            "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj"
+            "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj"
             }
           }
         }

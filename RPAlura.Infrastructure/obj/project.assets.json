@@ -1382,11 +1382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
       "projectName": "RPAlura.Infrastructure",
-      "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\haguiar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\haguiar\\Source\\Repos\\desafiorpa\\RPAlura.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\haguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1403,8 +1403,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj": {
-              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj"
+            "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Domain\\RPAlura.Domain.csproj": {
+              "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Domain\\RPAlura.Domain.csproj"
             }
           }
         }
