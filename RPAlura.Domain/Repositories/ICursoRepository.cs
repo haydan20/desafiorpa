@@ -4,9 +4,9 @@ namespace RPAlura.Domain.Repositories
 {
     public interface ICursoRepository
     {
+  
+        void Save(Cursos curso);
+        void CreateDatabase();
         IEnumerable<Cursos> GetAll();
-        Cursos GetById(int id);
-        void Add(Cursos curso);
-        void CreateDatabaseAndTable();
     }
 }

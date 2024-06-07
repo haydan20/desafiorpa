@@ -10,6 +10,7 @@ bin/debug/
 /RPAlura/obj/
 [Ll]og/
 /.vs/
+/RPAlura\obj
 # Rider project files
 .idea/
 
@@ -126,4 +127,3 @@ __pycache__/
 /RPAlura/bin/Debug/net8.0/RPAlura.Application.dll
 /RPAlura/bin/Debug/net8.0/RPAlura.Application.pdb
 /.vs/desafiorpa/v17/.wsuo
-/RPAlura/obj/Debug/net8.0/RPAlura.Console.AssemblyInfo.cs
