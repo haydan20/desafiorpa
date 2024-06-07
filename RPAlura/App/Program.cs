@@ -9,7 +9,7 @@ namespace RPAlura.Console
     {
         static void Main(string[] args)
         {
-            // Configuração do serviço de injeção de dependência
+           // Injetando dependências
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<ICursoRepository, CursoRepository>(provider => new CursoRepository("Data Source=:memory:;Mode=Memory;Cache=Shared"))
                 .AddTransient<Services>()

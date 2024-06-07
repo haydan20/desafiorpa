@@ -20,17 +20,23 @@ namespace RPAlura.Application.Services
 
         public void Save(Cursos curso)
         {
-            _cursoRepository.Add(curso);
+            _cursoRepository.Save(curso);
+        }
+
+        public IEnumerable<Cursos> GetAll()
+        {
+           return _cursoRepository.GetAll();
         }
 
         public void Iniciar(string busca)
         {
 
 
-            _cursoRepository.CreateDatabaseAndTable();
+            _cursoRepository.CreateDatabase();
 
             var aluraService = new AluraSearchService();
 
+            //inicia automação
             var lstCursos = aluraService.Search(busca);
 
             for (int i = 0; i < lstCursos.Count; i++)
@@ -38,7 +44,14 @@ namespace RPAlura.Application.Services
                 Save(lstCursos[i]);
                 Console.WriteLine("Salvando " + (i+1) + " de " + lstCursos.Count );
             }
-          
+
+       
+
+            foreach (var item in GetAll().ToList())
+            {
+                Console.WriteLine(item.Title + " Salvo");
+            }
+      
 
             aluraService.Dispose();
 

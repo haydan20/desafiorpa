@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uyO+vxMFB8m1EBzIK/VxmjAF8J4NpJQUQbg4I2FUNrN7GJiL3UwCceHEXGYxIOGvNWbQ3YRVQgB8BMilsoghkQ==",
+  "dgSpecHash": "xigc3V7FCpQY+InOQITHWdpK3lyooTjB1CdrP9wZpjEiErqD+HXNmRtF7A+ZJ866ldl5ISkwwIVN18zzbXRLLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Application\\RPAlura.Application.csproj",
+  "projectFilePath": "C:\\Users\\haguiar\\source\\repos\\desafiorpa\\RPAlura.Application\\RPAlura.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haguiar\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\haguiar\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

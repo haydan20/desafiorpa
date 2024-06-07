@@ -1,6 +1,129 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+bin/debug/
+/RPAlura/obj/
+[Ll]og/
+/.vs/
+/RPAlura\obj
+# Rider project files
+.idea/
 
-/.vs/desafiorpa/FileContentIndex
-/.vs/slnx.sqlite
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode-test/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Local history for Rider
+.idea/.idea
+.idea/.history
+
+# DotNet compile
+*.pidb
+
+# DotNet User
+*.userprefs
+
+# DotNet Bundle
+*.bundle
+
+# DotNet Temp
+.tmp
+
+# DotNet Globalization
+*.map
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+.packages/
+
+# Rider files
+.idea/
+.idea/*/
+
+# Log files
+*.log
+
+# npm packages
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# App config and database files
+*.config
+*.db
+*.sqlite
+
+# Local history for Visual Studio
+.vs/
+
+# Coverage Directory used by tools like Coverlet
+coverage/
+
+# Uncomment if you have tasks that create the files directory and you want to ignore them
+# files/
+
+# Dependency directories
+node_modules/
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Python
+*.pyc
+__pycache__/
+
+# Add other files and directories below as needed
+
+# User-defined
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+/RPAlura/bin/Debug/net8.0/RPAlura.Application.dll
+/RPAlura/bin/Debug/net8.0/RPAlura.Application.pdb
+/.vs/desafiorpa/v17/.wsuo
