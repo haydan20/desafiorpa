@@ -1,0 +1,11 @@
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\bin\Debug\net8.0\RPAlura.Domain.deps.json
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\bin\Debug\net8.0\RPAlura.Domain.dll
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\bin\Debug\net8.0\RPAlura.Domain.pdb
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.AssemblyInfoInputs.cache
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.AssemblyInfo.cs
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.csproj.CoreCompileInputs.cache
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.dll
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\refint\RPAlura.Domain.dll
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\RPAlura.Domain.pdb
+C:\Users\haguiar\source\repos\RPAlura\RPAlura.Domain\obj\Debug\net8.0\ref\RPAlura.Domain.dll

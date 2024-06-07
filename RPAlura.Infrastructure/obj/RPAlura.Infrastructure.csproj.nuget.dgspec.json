@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj",
+        "projectName": "RPAlura.Domain",
+        "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj",
+        "packagesPath": "C:\\Users\\haguiar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
+        "projectName": "RPAlura.Infrastructure",
+        "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\RPAlura.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\haguiar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj": {
+                "projectPath": "C:\\Users\\haguiar\\source\\repos\\desafio\\RPAlura.Domain\\RPAlura.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[125.0.6422.14100, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
